@@ -1,0 +1,1099 @@
+.maincontainer {
+    position: relative;
+    /* width: 1440px; */
+    height: 920px;
+
+    /* Gray/20 */
+
+    background: #F6F7F8;
+}
+
+.card {
+
+    position: absolute;
+    width: 560px;
+    right: 24px;
+    top: 2.61%;
+    bottom: 2.61%;
+
+    /* Neutral/10 */
+
+    background: #FFFFFF;
+    /* Shadow - Small */
+
+    box-shadow: 0px 20px 24px -4px rgba(31, 31, 31, 0.05);
+    border-radius: 12px;
+}
+
+.logo {
+    /* Logo */
+
+
+    position: absolute;
+    width: 110px;
+    height: 32px;
+    left: 72px;
+    top: 80px;
+}
+
+
+.login {
+    /* Login */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 416px;
+    height: 426px;
+    left: calc(50% - 416px/2);
+    top: 208px;
+
+
+
+}
+
+.header {
+
+    width: 113px;
+    height: 48px;
+
+    /* Heading/H2 */
+
+    /* font-family: 'Circular Std'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    /* identical to box height, or 48px */
+
+
+    /* Neutral/100 */
+
+    color: #1F1F1F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+.bodytext {
+    /* Text */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+
+    width: 233px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.btext {
+    width: 168px;
+    height: 24px;
+
+    /* Body/Standard */
+
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+
+    /* Neutral / 70 */
+
+    color: #757575;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.btn-link {
+    /* Button Link */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 0px;
+    gap: 8px;
+
+    width: 61px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.btntext {
+    width: 61px;
+    height: 16px;
+
+    /* Button/Large */
+
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+
+    /* Primary/50 */
+
+    color: #007BFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.main-containt {
+    /* Content */
+
+
+    /* Auto layout */
+    margin-top: 35px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    width: 416px;
+    height: 306px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.input {
+    /* Input */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    width: 416px;
+    height: 188px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.text-field {
+    /* Text Fields / Filled */
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px 16px;
+    gap: 8px;
+
+    width: 416px;
+    height: 72px;
+
+    /* Neutral/10 */
+
+    background: #FFFFFF;
+    /* Gray/30 */
+
+    border: 1px solid #EEEFF2;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.Text-header {
+    /* Header */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1px;
+
+    width: 384px;
+    height: 18px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.text-header-title {
+    /* TITTLE */
+
+
+    width: 95px;
+    height: 18px;
+
+    /* Title/Extra Small */
+
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+
+
+    /* Gray/50 */
+
+    color: #9CA3AF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Content {
+    /* Content */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 6px;
+
+    width: 384px;
+    height: 20px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.content-title {
+    /* Tittle */
+
+    height: 31px;
+    width: 361px;
+    /* height: 20px; */
+
+    /* Body/Small */
+
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+
+    /* Neutral / 50 */
+
+    color: #CBCBCB;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+
+    /* border-bottom-style: groove; */
+    /* background-color: #eee; */
+  }
+  
+  .no-outline:focus {
+    outline: none;
+  }
+
+.mail {
+    /* Mail */
+
+
+    width: 20px;
+    height: 20px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.Vector {
+    position: absolute;
+    left: 8.33%;
+    right: 8.33%;
+    /* top: 12.5%; */
+    bottom: 12.5%;
+
+    /* Neutral / 70
+
+757575
+*/
+    /* background: #757575; */
+}
+
+.Errortext {
+    /* Must be at least 8 characters. */
+
+
+    width: 187px;
+    height: 20px;
+
+    /* Body/Small */
+
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+
+    /* Neutral / 70 */
+
+    color: #757575;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.rememerText {
+    /* Text */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+    width: 416px;
+    height: 22px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.check-input {
+    /* Checkbox */
+
+
+    width: 20px;
+    height: 20px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.rtext {
+    /* Remember */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 270px;
+    height: 20px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.rtexttitle {
+    /* Remember me */
+
+
+    width: 92px;
+    height: 20px;
+
+    /* Body/Small */
+
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+
+    /* Neutral/100 */
+
+    color: #1F1F1F;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.btn-link1 {
+    /* Button Link */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 0px;
+    gap: 8px;
+
+    width: 107px;
+    height: 22px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.btntext1 {
+    /* Button Link */
+
+
+    width: 107px;
+    height: 14px;
+
+    /* Button/Standard */
+
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+
+
+    /* Primary/50 */
+
+    color: #007BFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.btn-primary {
+    /* Button | Primary */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+
+    width: 416px;
+    height: 48px;
+
+    /* Primary/50 */
+
+    background: #007BFF;
+    border-radius: 6px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.leftwing {
+    position: absolute;
+    width: 856px;
+    right: 666px;
+    top: 16%;    bottom: 0%;
+}
+
+.classM {
+    /* background-image: url("../../assets/Union.png"); */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    position: absolute;
+    width: 1051.62px;
+    height: 1271.67px;
+    left: -100.06px;
+    top: -191.1px;
+}
+
+.img-fluid123 {
+    box-sizing: border-box;
+    left: 0%;
+    right: 18px;
+    top: 0%;
+    bottom: 0%;
+    opacity: 3;
+    width: 107%;
+    margin-left: 114px;
+    margin-top: -152px;
+}
+
+.img-fluid1234 {
+    /* Union */
+
+
+    position: absolute;
+    left: 19.46%;
+    right: 20.4%;
+    top: 29.81%;
+    bottom: 28.14%;
+
+    background: linear-gradient(179.96deg, #CBCED6 0.03%, rgba(222, 226, 234, 0) 104.96%);
+    opacity: 0.4;
+}
+
+.mainIlustration {
+    /* Illustration / Login */
+
+
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 128px;
+    top: 160px;
+    z-index: 1;
+
+}
+
+.Group {
+    /* Group */
+
+
+    position: absolute;
+    width: 275.59px;
+    height: 468.98px;
+    left: 176.62px;
+    top: 46.07px;
+
+    transform: matrix(1, 0, -0.08, 1, 0, 0);
+}
+
+.Elilps10 {
+    /* Ellipse 10 */
+
+    background-image: url("../../assets/Ellipse 10.png");
+    position: absolute;
+    width: 103px;
+    height: 104px;
+    left: 330px;
+    top: 124px;
+    /* background: #75BFFA; */
+    /* transform: rotate(90deg); */
+}
+
+
+/*  */
+.outerUnion {
+    /* Union */
+
+
+    position: absolute;
+    visibility: hidden;
+    width: 632.38px;
+    height: 534.76px;
+    left: 104.63px;
+    top: 188px;
+
+    background: linear-gradient(180.54deg, #CBCED6 0.47%, rgba(222, 226, 234, 0) 129.53%);
+    opacity: 0.4;
+}
+
+.Subtract {
+    /* Subtract */
+
+
+    position: absolute;
+    width: 618.76px;
+    height: 526.03px;
+    left: 112.86px;
+    top: 188px;
+
+    background: linear-gradient(51.78deg, #007BFF 15.78%, #67CEFF 82.63%);
+}
+
+.Rectangle300 {
+    /* Rectangle 300 */
+
+
+    position: absolute;
+    width: 170.38px;
+    height: 8.38px;
+    left: 190.26px;
+    top: 434.24px;
+
+    background: #3A99FF;
+    border-radius: 76.5761px;
+    transform: matrix(1, 0, -0.08, 1, 0, 0);
+}
+
+.Elips53 {
+    /* ******* */
+
+
+    position: absolute;
+    width: 82.86px;
+    height: 9.31px;
+    left: 198.88px;
+    top: 361.54px;
+
+    background: #F5937C;
+    transform: matrix(1, 0, -0.08, 1, 0, 0);
+    background-image: url("../../assets/_______.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.Group2 {
+    /* Group */
+
+
+    position: absolute;
+    width: 36.54px;
+    height: 52px;
+    left: 292.75px;
+    top: 74.89px;
+
+    transform: matrix(1, 0, -0.08, 1, 0, 0);
+}
+
+.Rectangle99 {
+    /* Rectangle 99 */
+
+    background-image: url("../../assets/Rectangle 99.png");
+
+    position: absolute;
+    width: 36.54px;
+    height: 25.38px;
+    left: 34.55px;
+    top: 54.42px;
+
+    /* background: #268AFD; */
+    transform: matrix(1, 0, -0.08, 1, 0, 0);
+}
+
+.Ellipse53 {
+    /* Ellipse 53 */
+
+    background-image: url("../../assets/Ellipse 53.png");
+
+    position: absolute;
+    width: 23.01px;
+    height: 23.01px;
+    /* left: 300.24px; */
+    top: 27.89px;
+    right: 43px;
+    /* background: #268AFD; */
+    transform: matrix(1, 0, -0.08, 1, 0, 0);
+}
+
+.Ellipse3209 {
+    /* Ellipse 3209 */
+
+
+    /* Ellipse 3209 */
+
+
+    position: absolute;
+    width: 110.79px;
+    height: 109.86px;
+    left: 258.55px;
+    top: 46.07px;
+
+    background: #FFFFFF;
+    box-shadow: 20px 20px 40px rgba(94, 106, 120, 0.08), 0px -30px 154.826px rgba(35, 42, 49, 0.06);
+    border-radius: 85px;
+    transform: matrix(1, 0, -0.08, 1, 0, 0);
+}
+
+.Rectangle289 {
+    /* Rectangle 289 */
+
+
+    position: absolute;
+    width: 275.59px;
+    height: 413.12px;
+    left: 172px;
+    top: 101.74px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 3.87065px 7.7413px rgba(94, 106, 120, 0.08), 0px -30px 154.826px rgba(35, 42, 49, 0.06);
+    border-radius: 18px;
+    transform: matrix(1, 0, -0.08, 1, 0, 0);
+}
+
+.Rectangle43 {
+    /* Rectangle 43 */
+
+
+    position: absolute;
+    width: 82.86px;
+    height: 14.9px;
+    left: 261.12px;
+    top: 172.26px;
+
+    background: #E4E9EE;
+    border-radius: 76.5761px;
+    transform: matrix(1, 0, -0.08, 1, 0, 0);
+}
+
+.Rectangle44 {
+    /* Rectangle 44 */
+
+
+    position: absolute;
+    width: 144.31px;
+    height: 14.9px;
+    left: 228.4px;
+    top: 196.38px;
+
+    background: #F3F6F9;
+    border-radius: 76.5761px;
+    transform: matrix(1, 0, -0.08, 1, 0, 0);
+}
+
+.Rectangle290 {
+    /* Rectangle 290 */
+
+
+    position: absolute;
+    width: 65.17px;
+    height: 8.38px;
+    left: 193.36px;
+    top: 237.21px;
+
+    background: #E4E9EE;
+    border-radius: 76.5761px;
+    transform: matrix(1, 0, -0.08, 1, 0, 0);
+}
+
+.Rectangle294 {
+    /* Rectangle 294 */
+
+
+    position: absolute;
+    width: 93.1px;
+    height: 8.38px;
+    left: 186.28px;
+    top: 322.57px;
+
+    background: #E4E9EE;
+    border-radius: 76.5761px;
+    transform: matrix(1, 0, -0.08, 1, 0, 0);
+}
+
+.Rectangle291 {
+    /* Rectangle 291 */
+
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 213.21px;
+    height: 52.14px;
+    left: 189.1px;
+    top: 254.84px;
+
+    border: 2.4px solid #F3F6F9;
+    border-radius: 9.6px;
+    transform: matrix(1, 0, -0.08, 1, 0, 0);
+}
+
+.Rectangle295 {
+    /* Rectangle 295 */
+
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 213.21px;
+    height: 52.14px;
+    left: 182.03px;
+    top: 340.2px;
+
+    border: 2.4px solid #F3F6F9;
+    border-radius: 9.6px;
+    transform: matrix(1, 0, -0.08, 1, 0, 0);
+}
+
+.Rectangle297 {
+    /* Rectangle 297 */
+
+
+    position: absolute;
+    width: 213.21px;
+    height: 51.21px;
+    left: 176.65px;
+    top: 426.52px;
+
+    background: linear-gradient(38.4deg, #EFF7FF 23.35%, rgba(223, 230, 237, 0) 159.02%);
+    border-radius: 9.6px;
+    transform: matrix(1, 0, -0.08, 1, 0, 0);
+}
+
+.Rectangle299 {
+    /*  */
+
+
+    position: absolute;
+    width: 213.21px;
+    height: 51.21px;
+    left: 169.68px;
+    top: 412.9px;
+
+    background: #007BFF;
+    box-shadow: 0px 0px 4px #E2E8EE;
+    border-radius: 9.6px;
+    transform: matrix(1, 0, -0.08, 1, 0, 0);
+}
+.Rectangle300 {
+    /* Rectangle 300 */
+
+
+position: absolute;
+width: 170.38px;
+height: 8.38px;
+left: 190.26px;
+top: 434.24px;
+
+background: #3A99FF;
+border-radius: 76.5761px;
+transform: matrix(1, 0, -0.08, 1, 0, 0);
+}
+.Group1{
+    /* Group */
+
+
+position: absolute;
+width: 275.59px;
+height: 468.98px;
+left: 176.62px;
+top: 46.07px;
+
+transform: matrix(1, 0, -0.08, 1, 0, 0);
+}
+.RectangleStart{
+    /* ******* */
+
+position: absolute;
+width: 82.86px;
+height: 9.31px;
+left: 198.88px;
+top: 361.54px;
+
+/* background: #F5937C; */
+transform: matrix(1, 0, -0.08, 1, 0, 0);
+}
+.Rectangle296{
+    /* Rectangle 296 */
+
+
+position: absolute;
+width: 78.21px;
+height: 3.72px;
+left: 204.79px;
+top: 278.96px;
+
+background: #F5937C;
+border-radius: 76.5761px;
+transform: matrix(1, 0, -0.08, 1, 0, 0);
+}
+
+.Ellipse36{
+    /* Ellipse 36 */
+
+    background-image: url("../../assets/Ellipse 36.png");
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 272px;
+top: 482px;
+
+
+/* background: #258AFF; */
+}
+.Ellipse7{
+    /* El3lipse 37 */
+
+    background-image: url("../../assets/Ellipse 37.png");
+
+position: absolute;
+width: 136px;
+height: 136px;
+left: 565px;
+top: 254px;
+/* z-index: 1; */
+
+/* background: #F9957D; */
+}
+.Ellipse3212{
+    /* Ellipse 3212 */
+
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 302px;
+top: 359px;
+border-radius: 10px;
+background: #F5937C;
+}
+
+.Ellipse3211{
+    /* Ellipse 3211 */
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 327px;
+    top: 265px;
+    background: #258AFF;
+    border-radius: 10px;
+    top: 278px;
+}
+
+.Ellipse3214 {
+    /* Ellipse 3214 */
+
+
+    position: absolute;
+    width: 14px;
+    height: 13px;
+    left: 624px;
+    top: 483px;
+    background: #2689FC;
+    border-radius: 10px;
+}
+
+.MUnion{
+    /* Union */
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    position: absolute;
+    left: 27%;
+    right: -3%;
+    top: 4%;
+    bottom: 0%;
+    opacity: 0.4;
+    opacity: 75;
+    width: 578.38px;
+}

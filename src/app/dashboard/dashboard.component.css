@@ -1,0 +1,1280 @@
+.Dashboard {
+    /* Dashboard */
+
+
+    position: relative;
+    width: 1440px;
+    height: 920px;
+
+}
+
+.SideMenu {
+    /* Side Menu | Icon */
+
+
+    position: absolute;
+    width: 80px;
+    left: 0px;
+    top: 0%;
+    bottom: 0%;
+
+    /* Gray/20 */
+
+    background: #F6F7F8;
+}
+
+.Logo {
+    /* Logo */
+
+
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 24px;
+    top: 24px;
+}
+
+.logoimage {
+    /* Logo 2 */
+
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: url("../../assets/Logo 2.png");
+}
+
+.Frame8962{
+    /* Frame 8962 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+position: absolute;
+width: 40px;
+height: 400px;
+left: 20px;
+top: 104px;
+}
+
+.Main{
+    /* Main */
+
+
+position: absolute;
+width: 1360px;
+left: 80px;
+top: 0%;
+bottom: 0%;
+
+/* Neutral/10 */
+
+background: #FFFFFF;
+box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.03);
+}
+.Content{
+    /* Content */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 1168px;
+height: 781px;
+left: 96px;
+top: 94px;
+}
+.Navigation{
+    /* Header / Navigation */
+
+
+position: absolute;
+height: 80px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+/* Neutral/10 */
+
+background: #FFFFFF;
+}
+.Tittle{
+    /* Tittle */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 0px;
+gap: 8px;
+
+position: absolute;
+width: 250px;
+height: 40px;
+left: 96px;
+top: 20px;
+}
+
+.Prospect{
+  /*  */
+
+
+width: 120px;
+height: 32px;
+
+/* Heading/H4 */
+
+/* font-family: 'Circular Std'; */
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 135%;
+/* or 32px */
+
+
+/* Gray/100 */
+
+color: #111827;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;  
+}
+
+.Header{
+    /* Header / Search */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 12px;
+
+position: absolute;
+width: 480px;
+height: 40px;
+left: calc(50% - 480px/2);
+top: calc(50% - 40px/2);
+
+/* Gray/20 */
+
+background: #F6F7F8;
+/* Gray/30 */
+
+border: 1px solid #EEEFF2;
+border-radius: 6px;
+}
+
+.Header2{
+    /* Header */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 1168px;
+height: 185px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.Getstarted{
+    /* Get started */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 832px;
+height: 185px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.CardBanner{
+    /* Card | Banner */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px 24px;
+gap: 20px;
+
+width: 264px;
+height: 181px;
+
+/* Gray/10 */
+
+background: #FCFCFD;
+/* Gray/30 */
+
+border: 1px solid #EEEFF2;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+}
+
+.contentTittle{
+    /* Tittle */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 1029px;
+
+width: 1168px;
+height: 32px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.GetStartedText{
+    /* Get Started */
+
+
+width: 110px;
+height: 28px;
+
+/* Heading/H5 */
+
+/* font-family: 'Circular Std'; */
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+/* identical to box height, or 28px */
+
+
+/* Neutral/100 */
+
+color: #1F1F1F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.HeaderCard{
+    /* Header */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 19px;
+
+width: 216px;
+height: 99px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.CardButtonLink{
+    /* Button Link */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 0px;
+gap: 8px;
+
+width: 216px;
+height: 22px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.CardButtonLinkText{
+    /* Button Link */
+
+
+width: 75px;
+height: 14px;
+
+/* Button/Standard */
+
+/* font-family: 'Circular Std'; */
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+/* identical to box height, or 14px */
+
+
+/* Primary/50 */
+
+color: #007BFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.HeaderCard2{
+    /* Header */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 216px;
+height: 40px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.Engage{
+    /* Engage */
+
+
+width: 168px;
+height: 24px;
+
+/* Title/Standard */
+
+/* font-family: 'Circular Std'; */
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+/* Neutral/100 */
+
+color: #1F1F1F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+}
+.cardText{
+    /* Text */
+
+
+width: 216px;
+height: 40px;
+
+/* Body/Small */
+
+/* font-family: 'Circular Std'; */
+font-style: normal;
+font-weight: 450;
+font-size: 14px;
+line-height: 140%;
+/* or 20px */
+
+
+/* Gray/70 */
+
+color: #4B5563;
+
+opacity: 0.6;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.CardIconDashboard{
+    /* Icon | Dashboard */
+
+
+width: 40px;
+height: 40px;
+
+/* Shadows Menu */
+
+box-shadow: 0px 4px 6px -2px rgba(31, 31, 31, 0.05);
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.imgEnggage{
+    /* Enggage */
+
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+}
+
+.BannerVideo {
+    /* Banner Video */
+
+
+width: 312px;
+height: 185px;
+
+/* Primary/10
+
+EFF3FE
+*/
+background: #EFF3FE;
+/* Gray/30 */
+
+border: 1px solid #EEEFF2;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.VideoImage{
+    /* Image */
+    position: absolute;
+    width: 245.88px;
+    height: 158px;
+    /* left: calc(50% - 245.88px/2 - 0.06px); */
+    /* top: calc(50% - 158px/2 + 0.5px); */
+    
+    /* Shadow - Small */
+    
+    box-shadow: 0px 20px 24px -4px rgba(31, 31, 31, 0.05);
+    border-radius: 4px;
+}
+.Play{
+    /* Play */
+
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: calc(85% - 40px/2 - 112px);
+    top: calc(18% - 40px/2 - 7.5px);
+    background: #007BFF;
+    border-radius: 60px;
+
+    z-index: 1;
+
+}
+.Pplay{
+    /* u:play */
+
+    position: absolute;
+    width: 22.22px;
+    height: 22.22px;
+    left: 4.89px;    top: 1.89px;
+}
+.Polygon5{
+    /* Polygon 5 */
+
+
+position: absolute;
+
+height: 22.22px;
+left: 10.89px;
+top: 3.89px;
+
+bottom: 10%;
+
+/* Neutral/10 */
+
+/* background: #FFFFFF; */
+border-radius: 1.11111px;
+/* transform: rotate(90deg); */
+}
+
+.Footer{
+  /* Footer */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 28px 24px;
+gap: 8px;
+
+position: absolute;
+width: 312px;
+height: 100px;
+/* left: 0px; */
+top: 140px;
+
+/* Neutral/10 */
+
+background: #FFFFFF;
+}
+.BanerText{
+    /* Text */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 268px;
+height: 44px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.BannerVideo.Footer .BanerText .Quickguide{
+    /* Quick guide */
+
+
+width: 89px;
+height: 24px;
+
+/* Title/Standard */
+
+/* font-family: 'Circular Std'; */
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+/* Neutral/100 */
+
+color: #1F1F1F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.Takealookthisguideforstarter{
+    /* Take a look this guide for starter */
+
+
+width: 268px;
+height: 20px;
+
+/* Body/Small */
+
+/* font-family: 'Circular Std'; */
+font-style: normal;
+font-weight: 450;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+
+
+/* Gray/60 */
+
+color: #6B7280;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.MainFooter{
+    /* Footer */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 1168px;
+height: 516px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.Activities{
+    /* Activities */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+isolation: isolate;
+
+width: 312px;
+height: 516px;
+
+/* Neutral/10 */
+
+background: #FFFFFF;
+/* Gray/30 */
+
+border: 1px solid #EEEFF2;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.HeaderActivity{
+    /* Header */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 24px 16px;
+gap: 8px;
+
+width: 280px;
+height: 72px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+}
+.Activities.RecentActivities{
+   
+    /* Recent Activities */
+
+
+    width: 124px;
+    height: 24px;
+    
+    /* Title/Standard */
+    
+    /* font-family: 'Circular Std'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    
+    
+    /* Neutral/100 */
+    
+    /* color: #1F1F1F; */
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.ButtonLinkRActivity{
+    /* Button Link */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 0px;
+gap: 8px;
+
+width: 53px;
+height: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.ButtonStandard {
+    /* Button Link */
+
+
+width: 59px;
+height: 14px;
+
+/* Button/Standard */
+
+/* font-family: 'Circular Std'; */
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 100%;
+/* identical to box height, or 14px */
+
+
+/* Primary/50 */
+
+color: #007BFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.CardActivities{
+    /* Card | Activities */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px;
+gap: 12px;
+
+width: 280px;
+height: 102px;
+
+/* Neutral/10 */
+
+background: #FFFFFF;
+/* Gra*/
+}
+
+.Profile{
+
+    /* Profile */
+
+
+width: 32px;
+height: 32px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.ActivityContent{
+    /* Content */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 168px;
+height: 70px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+}
+.ActivityContentHeader{
+    /* Header */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 168px;
+height: 20px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.Viewed{
+    /* Viewed */
+
+
+width: 48px;
+height: 20px;
+
+/* Body/Small */
+
+/* font-family: 'Circular Std'; */
+font-style: normal;
+font-weight: 450;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+
+
+/* Gray/70 */
+
+color: #4B5563;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.Activitybutton{
+  /* Button Link */
+
+
+width: 100px;
+height: 12px;
+
+/* Button/Small */
+
+/* font-family: 'Circular Std'; */
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+/* identical to box height, or 12px */
+
+
+/* Primary/50 */
+
+color: #007BFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.ButtonSend{
+    /* Button | Icon */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px;
+gap: 8px;
+
+width: 24px;
+height: 24px;
+
+border-radius: 4px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.CampaignBTN{
+    /* Campaign */
+
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.CampaignBTNVictor{
+   /* Vector */
+
+
+position: absolute;
+left: 6.45%;
+right: 9.31%;
+top: 9.45%;
+bottom: 6.42%;
+
+/* Neutral / 70
+
+757575
+*/
+/* background: #757575;  */
+}
+.AccountExecutive{
+   /* Account Executive */
+
+
+width: 168px;
+height: 17px;
+
+/* Body/Extra Small */
+
+/* font-family: 'Circular Std'; */
+font-style: normal;
+font-weight: 450;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+
+
+/* Gray/60 */
+
+color: #6B7280;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0; 
+}
+.Minutesago{
+   
+    /* 20 Minutes ago */
+    
+    
+    width: 168px;
+    height: 17px;
+    
+    /* Body/Small */
+    
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+    
+    
+    /* Gray/40 */
+    
+    color: #D1D5DB;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;   
+}
+
+.chart{
+    /* Chart */
+
+
+width: 832px;
+height: 516px;
+
+/* Gray/10 */
+
+background: #FCFCFD;
+/* Gray/30 */
+
+border: 1px solid #EEEFF2;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.ActivitiesScroll{
+    overflow: scroll;
+    overflow-x: hidden;
+    background: #F0F0F0;
+border-radius: 4px;
+
+}
+.ActivitiesScroll::-webkit-scrollbar{
+    width:4px;
+    background-color:#F0F0F0;
+    }
+
+    .chartDesign{
+
+    height: 124px;
+    display: block;
+    box-sizing: border-box;
+    height: 463px;
+    width: 298.889px;
+    position: absolute;
+    /* width: -webkit-fill-available; */
+    width: 820px;
+
+    }
+
+    .chart-container {
+        width:  80%;
+        height: 480px;
+        margin: 0 auto;
+      }
+      
+      .FooterSideNave{
+        /* Footer */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+position: absolute;
+width: 40px;
+height: 152px;
+left: 20px;
+bottom: 24px;
+      }
+
+
+      .footerNavigations{
+        /* Menu | Navigations */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px;
+gap: 8px;
+isolation: isolate;
+
+width: 40px;
+height: 40px;
+
+/* Gray/20 */
+
+background: #F6F7F8;
+border-radius: 6px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+      }
+
+      .footerProfile{
+        /* Profile */
+
+
+width: 32px;
+height: 32px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+      }
+
+      .footerNavigations1{
+        /* Menu | Navigations */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px;
+gap: 8px;
+isolation: isolate;
+
+width: 40px;
+height: 40px;
+
+/* Gray/20 */
+
+background: #F6F7F8;
+border-radius: 6px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+      }
+
+      .FrameDashboard{
+        /* Dashboard */
+
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+      }
+
+      .menu2{
+        /* Menu | Navigations */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px;
+gap: 8px;
+isolation: isolate;
+
+width: 40px;
+height: 40px;
+
+/* Gray/20 */
+
+background: #F6F7F8;
+border-radius: 6px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+      }

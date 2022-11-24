@@ -1,0 +1,186 @@
+<section class="maincontainer">
+
+    <div class="container ">
+        <div class="row">
+            <div class="col ">
+                <div class="leftwing">
+                    <div class="classM">
+                        <!-- <img src="../../assets/Union2.png" class="img-fluid1234" alt="..."> -->
+
+                        <div class="mainIlustration">
+                            <div class="Elilps10"></div>
+                            <div class="Ellipse36"></div>
+                            <div class="Ellipse7"></div>
+                            <div class="Ellipse3212"></div>
+                            <div class="Ellipse3211"></div>
+                            <div class="Ellipse3214"></div>
+
+
+                            <div class="Group1">
+
+                                <div class="Group">
+
+                                </div>
+                                <!-- <div class="Elilps10"> </div> -->
+                                <!-- <div class="Rectangle300"></div> -->
+
+                                <div class="Elips53"></div>
+                                <div class="Rectangle289"> </div>
+                                <div class="Rectangle43"></div>
+                                <div class="Rectangle44"></div>
+                                <div class="Rectangle290"></div>
+                                <div class="Rectangle294"></div>
+                                <div class="Rectangle291"></div>
+                                <div class="Rectangle295"></div>
+                                <div class="Rectangle296"></div>
+                                <div class="Rectangle297"></div>
+                                <div class="Rectangle299"></div>
+                                <!-- <div class="Ellipse3209">
+                                        
+                                    </div> -->
+                                <div class="Ellipse3209">
+                                    <div class="Ellipse53"> </div>
+                                    <div class="Rectangle99"> </div>
+
+
+                                </div>
+                                <div class="Rectangle300"> </div>
+                                <div class="RectangleStart">
+                                    <img src="../../assets/_______.png" class="img-fluid1234" alt="...">
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <img src="../../assets/Union.png" class="  img-fluid123" alt="...">
+                    <img src="../../assets/Union2.png" class="MUnion" alt="...">
+
+                </div>
+                <!-- 
+                <div class="outerUnion">
+
+                    <div class="Subtract">
+
+                    </div>
+
+                </div> -->
+
+            </div>
+            <div class="col">
+
+
+                <div class="card">
+                    <div class="card-body">
+
+                        <div class="logo">
+                            <img src="../../assets/Logo 1.png" class="img-fluid" alt="...">
+                        </div>
+
+
+                        <div class="login">
+                            <div class="header">
+                                <h2>
+                                    Log in
+                                </h2>
+                                <div class="bodytext">
+                                    <label class="btext" for="">Don’t have an account?</label>
+
+                                    <button type="button" class="btn btn-link">
+                                        <div class="btntext">
+                                            Register
+                                        </div>
+                                    </button>
+
+                                </div>
+
+                                <div class="main-containt">
+                                    <div class="input">
+                                        <div class="text-field">
+                                            <div class="Text-header">
+                                                <div class="text-header-title">
+                                                    EMAIL ADDRESS
+                                                </div>
+                                            </div>
+                                            <!-- <label for="exampleInputEmail1" class="form-label">Email address</label> -->
+                                            <!-- <div class="Content">
+                                                <div class="content-title">Your Email</div>
+                                                <input type="email" placeholder="Your Email" class=" form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                <img src="../../assets/Vector.png" class="img-fluid" alt="...">
+                                                <div class="mail">
+                                                    <div class="Vector"> </div>
+                                                </div>
+                                            </div> -->
+                                            <div class="Content">
+                                                <div class="">
+                                                    <input type="email" placeholder="Your Email" [formControl]="Email"
+                                                        class="form-control content-title" id="exampleInputEmail1"
+                                                        aria-describedby="emailHelp">
+                                                </div>
+                                                <img src="../../assets/Vector.png" class="img-fluid" alt="...">
+                                                <div class="">
+                                                    <!-- <div class="Vector"> </div> -->
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="text-field">
+                                            <div class="Text-header">
+                                                <div class="text-header-title">
+                                                    PASSWORD
+                                                </div>
+                                            </div>
+                                            <!-- <label for="exampleInputEmail1" class="form-label">Email address</label> -->
+                                            <!-- <div class="Content">
+                                                <div class="content-title">Your Password</div>
+                                                <img src="../../assets/Vector1.png" class="img-fluid" alt="...">
+                                                <div class="mail">
+                                                    <div class="Vector"> </div>
+                                                </div>
+                                            </div> -->
+                                            <div class="Content">
+                                                <input type="password" required [formControl]="password" placeholder="Your Password" id="inputPassword5"
+                                                    class=" content-title form-control"
+                                                    aria-describedby="passwordHelpBlock">
+                                                <img src="../../assets/Vector1.png" class="img-fluid" alt="...">
+                                                <!-- <div >
+                                                    password is required.
+                                                  </div> -->
+                                            </div>
+
+                                        </div>
+                                        <div *ngIf="password.invalid && (password.dirty || password.touched)"
+                                        class="Errortext text-danger alert-danger"> * Password Require </div>
+                                        <div class="Errortext text-danger" *ngIf=" password.errors?.['minlength']">
+                                            Must be at least 8 characters.
+                                        </div>
+
+
+                                    </div>
+                                    <div class="rememerText">
+                                        <input class="check-input" type="checkbox" value="" id="flexCheckChecked"
+                                            checked>
+                                        <div class="rtext">
+                                            <div class="rtexttitle">Remember me</div>
+                                        </div>
+                                        <button type="button" class="btn btn-link1">
+                                            <div class="btntext1">
+                                                Forgot Password
+                                            </div>
+                                        </button>
+                                    </div>
+
+                                </div>
+                                <button type="button"  (click)="Login()" routerLink="/Dashboard"  class="btn btn-primary">Log in</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
